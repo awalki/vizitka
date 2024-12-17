@@ -12,6 +12,7 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { CoinsIcon } from "lucide-react";
+import Image from "next/image";
 
 export default function CardWithForm() {
   const [tips, setTip] = React.useState(0);
@@ -52,25 +53,31 @@ export default function CardWithForm() {
           <ul className="flex gap-3">
             <li>
               <a href="https://github.com/awalki">
-                <img
-                  className="w-9"
+                <Image
+                  width={36}
+                  height={36}
                   src="https://skillicons.dev/icons?i=github"
+                  alt="github"
                 />
               </a>
             </li>
             <li>
               <a href="https://discord.gg/SSGbDUB4jW">
-                <img
-                  className="w-9"
+                <Image
+                  width={36}
+                  height={36}
                   src="https://skillicons.dev/icons?i=discord"
+                  alt="discord"
                 />
               </a>
             </li>
             <li>
               <a href="https://t.me/despairovka">
-                <img
-                  className="w-9"
+                <Image
+                  width={36}
+                  height={36}
                   src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Telegram_2019_Logo.svg/2048px-Telegram_2019_Logo.svg.png"
+                  alt="telegram"
                 />
               </a>
             </li>
