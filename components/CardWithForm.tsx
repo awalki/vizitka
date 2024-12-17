@@ -8,11 +8,10 @@ import {
   Card,
   CardContent,
   CardDescription,
-  CardFooter,
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import { Coins, CoinsIcon, MailOpen } from "lucide-react";
+import { CoinsIcon } from "lucide-react";
 
 export default function CardWithForm() {
   const [tips, setTip] = React.useState(0);
